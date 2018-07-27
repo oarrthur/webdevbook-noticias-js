@@ -1,3 +1,7 @@
+body {
+    background-color: #2f2f2f !important;
+}
+
 label {
     display: block;
     font-weight: bold;
@@ -7,10 +11,85 @@ form div {
     margin-bottom: 10px;
 }
 
-.noticia .titulo {
-    font-weight: bold;
+textarea:focus, input:focus, select:focus{
+    box-shadow: 0 0 0 0 !important;
+    border: 0 none !important;
+    outline: 0 !important;
 }
 
-.noticia .conteudo {
+.noticia .titulo {
+    font-weight: bold;
+    font-size: 30px;
+}
 
+.noticia .conteudo button{
+    margin: 5px;
+}
+
+.header {
+    background-color: darkslateblue;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin-top: 0;
+}
+
+.header p {
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.form {
+    background-color: rgb(139, 130, 189);
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}
+
+.form button{
+    border: none;
+    background-color: darkslateblue;
+    padding: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.form input, textarea{
+    color: #2f2f2f !important;
+    border: darkslateblue;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+.lista {
+    background-color: rgb(167, 159, 203);
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.lista li{
+    list-style: none !important;
+}
+
+.lista ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.lista button{
+    border: none;
+    background-color: darkslateblue;
+    padding: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
 }
